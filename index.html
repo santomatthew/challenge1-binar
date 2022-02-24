@@ -13,6 +13,11 @@
             background-color: #F1F3FF;
         } */
 
+        body{
+            font-family: Helvetica;
+        }
+
+
         .table-custom {
         border-collapse: separate;
         border-spacing:  15px;
@@ -61,45 +66,71 @@
         background-color: #F1F3FF;
       }
 
+      .carousel-control-prev-icon{
+        position: relative;
+        color: aqua;
+        background-color: grey;
+        border-radius: 50%;
+        margin-left: 334px;
+      }
+
+      .carousel-control-prev{
+        position: relative;
+        margin-left: 850px;
+        margin-top: 250px;
+      }
+/* 
+      .carousel-control-next-icon{
+        position: relative;
+        color: aqua;
+        background-color: grey;
+        border-radius: 50%;
+        margin-right: 334px;
+      } */
+
+
+
+
+      /* .person{
+        po
+      } */
+
     </style>
 </head>
 <body style="overflow-x : hidden;">
 
     <!-- Navbar -->
     <div style="background-color: #F1F3FF;overflow: hidden;">
-        <div class="container fixed-top navbarstyling">
-            <nav class="navbar  navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                    <svg width="100" height="34" viewBox="0 0 100 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="100" height="34" fill="#0D28A6"/>
-                        </svg>
-                    </a>
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav d-flex justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Our Services</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link active" href="#">Why Us</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link active" href="#">Testimonial</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link active" href="#">FAQ</a>
-                            </li>
-                            <li class="nav-item">
-                            <button type="button" class="btn btn-success">Register</button>
-                        </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+        <div class="container fixed-top">
+          <nav class="navbar navbar-expand-lg fixed-top navbar-light navbarstyling">
+            <div class="container-lg">
+                    <a class="navbar-link " href="#"><svg width="100" height="34" viewBox="0 0 100 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="100" height="34" fill="#0D28A6"/>
+                      </svg></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto mb-lg-0">
+                          <li class="nav-item">
+                          <a class="nav-link active me-2" href="#section1">Our Service</a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="nav-link active me-2" href="#section2">Why Us</a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="nav-link active me-2" href="#section3">Testimonial</a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="nav-link active me-3" href="#section4">FAQ</a>
+                          </li>
+                          <li class="nav-item">
+                          <a class="navbar-link btn btn-success link-light" href="#">Register</a>
+                          </li>
+                      </ul>
+                    </div>
+            </div>
+          </nav>
         </div>
     <!-- Mobil -->
             <div class="container">
@@ -120,7 +151,7 @@
         <div class="spacing row">
 
             <div class="col-lg-6 d-flex justify-content-center">
-              <img src="pict/orang.svg" class="img-fluid" alt="orang" width="430px">
+              <img src="pict/orang.svg" class="img-fluid person" alt="orang" width="430px">
             </div>
     
             <div class="col-lg-6"  style="margin-top: 35px;">
@@ -646,7 +677,7 @@
     </div>
     <!-- FAQ -->
 
-    <div class="container">
+    <div id="#section4" class="container">
         <div class="spacing row">
             <div class="col-lg-6"> 
                 <h3>Frequently Asked Question</h3>
